@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@Types/*": [
+        "types/*"
+      ],
+      "@Context/*": [
+        "context/*"
+      ],
+      "@Hooks/*": [
+        "hooks/*"
+      ],
+      "@Utils/*": [
+        "utils/*"
+      ],
+      "@Ruotes/*": [
+        "routes/*"
+      ],
+      "@Components/*": [
+        "components/*"
+      ],
+      "@Assets/*": [
+        "assets/*"
+      ],
+      "@Styles/*": [
+        "styles/*",
+      ],
+      "@Store/*": [
+        "store/*"
+      ],
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "vite.env.d.ts",
+    "src"
+  ],
+}
